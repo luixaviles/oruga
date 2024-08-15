@@ -29,6 +29,11 @@
     <a href="https://www.npmjs.com/package/@oruga-ui/oruga-next"><img src="https://img.shields.io/npm/dt/@oruga-ui/oruga-next.svg" /></a>
 </p>
 
+## About this Fork
+This library, `@luixaviles/oruga`, is a fork of the original [Oruga UI](https://github.com/oruga-ui/oruga) library. It is intended to provide a fix to avoid memory leaks due to events cleanup by using `beforeDestroy` hook, which is compatible with [Vue v2 API](https://v2.vuejs.org/v2/api/#beforeDestroy).
+We aim to maintin the lightweight and functional nature of Oruga library(legacy version) while addressing the identified problem.
+ 
+
 ## Features
 
 * **CSS framework agnostic**: No dependency on a specific CSS framework/library but you can easily integrate the components with one of them because they are fully customizable in different ways
